@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<title>Index</title>
+<style type="text/css">
+
+
+body{
+	margin:0
+	font-size:20px;
+	font-family:times new roman;
+<!--body of the nav.bar-->
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: black;
+<!--style of the nav bar-->  
+}
+
+#navbar a {
+  float: right;
+  display: block;
+  color: red;
+  text-align:center ;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+<!--text inside the navigation bar-->
+}
+
+#navbar a:hover {
+  background-color: blue;
+  color: red;
+}
+
+#navbar a.active {
+  background-color: skyblue;
+  color: green;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 50px;
+<!--add padding to the page-->
+}
+
+</style>
+
+</head>
+
+
+<body style="background-image:url('pizzab.jpg');background-size:100%;background-attachment:fixed;color:white;font-size:25px;font-family:lucida console">
+
+<div id ="navbar">
+<a class="active" href="index.html">Index</a>
+<a href="menu.html">menu</a>
+<a href="karaoke.html">Karaoke</a>
+
+</div>
+
+<br>
+<img src="logo.jpg" height="150" width="400" style= "float:right" alt="Logo Restaurant" />
+
+<div class="content">
+<br><br><br><br><br>
+<hr style= "border:5px solid red;">
+<br>
+
+<p style="text-align:right">
+
+The best flavor, come and found it here, at INNOCENTS. 
+To your liking. We offer you a wide variety of delicious food, 
+from a pizza to the most succulent buffet. With entertainment and fun for the whole family.
+Come and visit us,we assure that you, your family and friends will have fun.<br>
+<ul style="list-style-image:url('pizzarrow.jpg');text-align:right;list-style-position:inside;padding:80px">
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp INNOCENTS Restaurant is open six days a week:
+ <li>Monday from 10 A.M. to 12:30 P.M. </li>
+ <li>Tuesday from 10 A.M. to 12:30 P.M. </li>
+ <li>Wednesday from 10 A.M. to 12:30 P.M. </li>
+ <li>Thursday from 10 A.M. to 12:30 P.M. </li>
+ <li>Friday from 10 A.M. to 12:30 P.M. </li>
+ <li>Saturday from 12:00 to 9:30 P.M. (Restaurant area) </li>
+ <li>Karaoke opens at 4 P.M. </li>
+</div>
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>
+
+
+
+

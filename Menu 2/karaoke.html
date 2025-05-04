@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+<title>Karaoke</title>
+<style type="text/css">
+
+
+body{
+	margin:0
+	font-size:20px;
+	font-family:times new roman;
+
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: black;
+  
+}
+
+#navbar a {
+  float: right;
+  display: block;
+  color: red;
+  text-align:center ;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+
+#navbar a:hover {
+  background-color: blue;
+  color: red;
+}
+
+#navbar a.active {
+  background-color: skyblue;
+  color: green;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 50px;
+
+}
+
+
+
+table,th,td{
+border:no-border;
+}
+th,td{
+text-align:center;
+}
+
+
+</style>
+
+</head>
+
+<body style="background-image:url('karao.jpg');background-size:100%;background-attachment:fixed;color:white;font-size:30px;">
+
+<div id ="navbar">
+<a class="active" href="karaoke.html">Karaoke</a>
+<a href="menu.html">menu</a>
+<a href="index.html">Index</a>
+
+</div>
+
+
+
+<img src="logo.jpg" height="180" width="500" style="float:right" >
+<br><br><br><br><br>
+<hr style="border:3px solid blue;">
+<br><br>
+<p>Here you can see some of our options when choosing your favorites songs:</p>
+
+<br>
+<table>
+<caption><div style= "background-color:blue;color:white;">Songs</caption>
+
+<tr>
+<th>Song's Name</th>
+<th></th>
+</tr>
+
+<tr>
+<td>Found (Citizen Soldier) </td>
+<td> <audio controls>
+<source src="Citizen Soldier(found).mp3" type="audio/mpeg">
+</audio></td>
+</tr>
+
+<tr>
+<td>Secrets (One Republic) </td>
+<td><audio controls>
+<source src="One Republic - Secrets.mp3" type="audio/mpeg">
+</audio></td>
+</tr>
+
+<tr>
+<td>Best I Can (Art of Dying) </td>
+<td><audio controls>
+<source src="Art of Dying Best I Can.mp3" type="audio/mpeg">
+</audio></td>
+</tr>
+</table>
+<br><br><br>
+
+<p>At the moment to enter in the area of karaoke you can sit and drink few drinks 
+from juices and soda to beers and wines while as you enjoy our enthusiastic
+participants or sign up to participate and unleash all your talent on a great karaoke night.
+<br><br>
+If you are not interested in our vast music collection but want to participate,don'r worry,
+you should just talk to one of our waiters who will explain how to add any song you want from the comfort of 
+your table; And there is more, enjoy our challenge system in wich you can challenge any of your friend and family members to
+sing a song chosen by you.
+</p>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>   
+
+
+
+
+
+
+

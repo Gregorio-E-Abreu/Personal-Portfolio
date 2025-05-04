@@ -1,0 +1,335 @@
+<html>
+<head><title>menu</title>
+<style type="text/css">
+
+body{
+	margin:0
+	font-size:20px;
+	font-family:times new roman;
+<!--body of the nav.bar-->
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: black;
+<!--style of the nav bar-->  
+}
+
+#navbar a {
+  float: right;
+  display: block;
+  color: red;
+  text-align:center ;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+<!--text inside the navigation bar-->
+}
+
+#navbar a:hover {
+  background-color: blue;
+  color: red;
+}
+
+#navbar a.active {
+  background-color: skyblue;
+  color: green;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 50px;
+<!--add padding to the page-->
+}
+
+
+
+
+a:link{color:red;}
+a:visited{color:gold;}
+a:hover{color:purple;}
+a:active{color:lime;}
+
+.sidenav{
+height:100%;
+position:fixed;
+top:300;
+right:65;
+background-color:charcoal;
+padding-top:50px;
+}
+
+.sidenav a{
+font-size:28px;
+}
+
+.main{
+margin-left:50px;
+padding:415px 150px;
+}
+
+table,th,td{
+border:no-border
+text-align:center;
+}
+th,td{
+padding:100px;
+font-size:21px;
+
+}
+
+</style>
+
+</head>
+
+<body style="background-image:url('menuback.jpg');background-size:100%;color:white;font-size:30px;">
+
+
+<div class="sidenav">
+<a href="#pizza">Pizza</a><br><br><br>
+<a href="#APPE">Appetizers</a><br><br><br>
+<a href="#Rice">Rice</a><br><br><br>
+<a href="#Drink">Drinks</a><br><br><br>
+
+</div>
+
+<div id ="navbar">
+<a class="active" href="menu.html">menu</a>
+<a href="index.html">index</a>
+<a href="karaoke.html">Karaoke</a>
+
+</div>
+
+<div class="main">
+<table>
+<caption style="text-align:center;font-size:26px;color:red;"><h2 id="pizza">Pizza</caption></h2>
+<tr>
+<th><h2>Pizza</h2></th>
+<th>10"</th>
+<th>12"</th>
+<th>16"</th>
+</tr>
+
+<tr>
+<td>CHEESE PIZZA</td>
+<td>$4.00</td>
+<td>$6.00</td>
+<td>$10.00</td>
+</tr>
+
+<tr>
+<td>PEPPERONI PIZZA</td>
+<td>$6.99</td>
+<td>$9.99</td>
+<td>$12.99</td>
+</tr>
+
+<tr>
+<td>HAWAIIAN PIZZA</td>
+<td>$9.50</td>
+<td>$11.90</td>
+<td>$14.99</td>
+</tr>
+
+<tr>
+<td>ULTIMATE MEAT PIZZA (SAUCE,PEPPERONI AND BACON)</td>
+<td>$10.00</td>
+<td>$12.99</td>
+<td>$16.99</td>
+</tr>
+
+<tr>
+<td>VEGGIE PIZZA</td>
+<td>$8.50</td>
+<td>$10.50</td>
+<td>$16.99</td>
+</tr>
+</table>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br>
+
+<table>
+<caption style="text-align:center;font-size:26px;color:red;"><h2 id="APPE">Appetizers</caption></h2>
+<tr>
+<th><h2>Appetizers</h2></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+
+<tr>
+<td>Onion Rings</td> 
+<td colspan="3"> 
+&nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp &nbsp &nbsp &nbsp &nbsp 
+$2.50
+ <img src="rings.jpg" width="250" height="130"></td>
+ </tr><br>
+ 
+ <tr>
+ <td>Boneless Wings</td>
+ <td colspan="3">
+ &nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp &nbsp &nbsp &nbsp &nbsp
+$2.50
+<img src="wing.jpg" width="250" height="130"></td>
+</tr><br>
+
+<tr>
+<td>Cheesy Chicken Quesadilla</td>
+<td colspan="3">
+&nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp &nbsp &nbsp &nbsp &nbsp
+$2.50
+<img src="quesa.jpg" width="250" height="130"></td>
+</tr>
+</table>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br>
+
+<table>
+<caption style="text-align:center;font-size:26px;color:red;"><h2 id="Rice">Rice</caption></h2>
+<tr>
+<th><h2>Specials</h2> </th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+
+<tr>
+<td>Special Chicken Fried Rice</td>
+<td colspan="3">
+&nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp &nbsp &nbsp &nbsp &nbsp
+$6.50
+<img src="chickenrice.jpg" width="250" height="130"></td>
+</tr>
+
+<tr>
+<td>Chicken Wonton Stir Fry</td>
+<td colspan="3">
+&nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp &nbsp &nbsp &nbsp &nbsp
+$7.00
+<img src="wonton.jpg" width="250" height="130"></td>
+
+</tr>
+
+<tr>
+<td>Custom Rice</td>
+<td colspan="3">
+&nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp
+$6.00-10.00</td>
+
+</tr>
+</table>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br>
+
+<table>
+<caption style="text-align:center;font-size:26px;color:red;"><h2 id="Drink">Drinks</caption></h2>
+<tr>
+<th><h2>Options</h2></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+
+<tr>
+<td>Lemonade</td>
+<td colspan="3">
+&nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp
+$2.00</td>
+</tr>
+
+<tr>
+<td>Orange Juice</td>
+<td colspan="3">
+&nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp
+$2.00</td>
+</tr>
+<tr>
+<td>Soda</td>
+<td colspan="3">
+&nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp
+$2.00</td>
+</tr>
+</table>
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+
+</script>
+
+</body>
+</html>	
+
+
+
+
+
+
